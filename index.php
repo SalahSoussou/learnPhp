@@ -38,3 +38,52 @@ echo '<br>';
 echo 5 + 7.5;
 echo '<br>';
 echo 5 + (int)7.5;
+
+/*
+= data types
+------------------
+= Boolean + Converting To Boolean
+*/
+echo '<br>';
+echo '<hr>';
+var_dump((bool) "");
+echo '<br>';
+var_dump((bool) array());
+echo '<br>';
+var_dump((bool) []);
+echo '<br>';
+var_dump((bool) 0);
+echo '<br>';
+var_dump((bool) "hi");
+echo '<br>';
+var_dump((bool) array(2,2));
+echo '<hr>';
+/*
+= data types
+------------------
+= String And Escaping
+= -----------
+= nl2br()
+*/
+echo 'sring "php"';
+echo '<br>';
+echo 'sring \'php\'';
+echo '<br>';
+echo 'text from
+meltipel
+lins ttgh';
+echo '<br>';
+echo nl2br('text from
+meltipel
+lins useng method');
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
