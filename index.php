@@ -76,8 +76,52 @@ echo '<br>';
 echo nl2br('text from
 meltipel
 lins useng method');
+echo '<hr>';
+//==================================================
+/*
+= data types
+------------------
+= String And Escaping
+= -----------
+= Heredoc
+= Nowdoc
+*/
+$name = 'Salah';
+
+//  = Heredoc ""
+echo <<<"her"
+Heredoc : <br>;)
+special characters && $ '' - \\\\<br>
+my name is ==> $name <==
+her;
+
+
 echo '<br>';
+
+//  = Nowedoc ''
+
+echo <<<'now'
+Nowdoc : <br> ;)
+special characters && $ '' - \\\\<br>
+my name is ==> $name <==
+now;
 echo '<br>';
+
+echo <<<"nav"
+<ul>
+    <li> $name </li>
+    <li> $name </li>
+    <li> $name </li>
+</ul>
+nav;
+echo '<br>';
+echo <<<'ul'
+<ul>
+    <li> $name </li>
+    <li> $name </li>
+    <li> $name </li>
+</ul>
+ul;
 echo '<br>';
 echo '<br>';
 echo '<br>';
