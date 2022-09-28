@@ -1,8 +1,8 @@
 <?php
 // comment 
- echo 'hello word'; // coment
- #coment
- echo '<br>';#coment
+echo 'hello word'; // coment
+#coment
+echo '<br>'; #coment
 //  echo 'hello word';
 //  echo '<br>';#coment
 /*
@@ -21,9 +21,9 @@ echo gettype(12.45);
 echo '<br> ';
 echo gettype('hi ther');
 echo '<br> ';
-echo gettype(array("hu","test"));
+echo gettype(array("hu", "test"));
 echo '<br> ';
-echo gettype(["hu","test"]);
+echo gettype(["hu", "test"]);
 echo '<br> ';
 echo '<hr>';
 // =======================================================
@@ -56,7 +56,7 @@ var_dump((bool) 0);
 echo '<br>';
 var_dump((bool) "hi");
 echo '<br>';
-var_dump((bool) array(2,2));
+var_dump((bool) array(2, 2));
 echo '<hr>';
 /*
 = data types
@@ -123,11 +123,3 @@ echo <<<'ul'
 </ul>
 ul;
 echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-
